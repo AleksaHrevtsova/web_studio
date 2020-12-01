@@ -14,13 +14,84 @@ a {
 address {
   font-style: normal;
 }
-*/
-
 .container {
   border: 1px solid;
 }
+*/
 
-.section-3 img {
+.section-4 img {
   width: 270px;
   height: 260px;
+}
+
+/* VARIABLES */
+:root {
+  --color: #2196f3;
+
+  --black: #212121;
+  --white: #ffffff;
+  --grey-text: #757575;
+
+  --portfolio-btn: #f5f4fa;
+
+  --section-background: #f5f4fa;
+  --background: #2f303a;
+}
+
+/* FONT COLORS & HOVERS and FOCUSES*/
+.logo {
+  color: var(--color);
+}
+
+.header-logo span,
+.nav-link,
+.details-list h3,
+.name {
+  color: var(--black);
+}
+
+.hero,
+.footer {
+  background-color: var(--background);
+}
+
+.hero-btn {
+  background-color: var(--color);
+  color: var(--white);
+}
+
+.section-4 {
+  background-color: var(--section-background);
+}
+.section-4 li {
+  background-color: var(--white);
+}
+
+.hero-title,
+.footer-logo span,
+.footer-address {
+  color: var(--white);
+}
+.nav-contacts a,
+.details-list p,
+.position,
+.project-type {
+  color: var(--grey-text);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-contacts a:hover,
+.nav-contacts a:focus {
+  color: var(--color);
+}
+
+.portfolio-btns button {
+  background-color: var(--portfolio-btn);
+  color: var(--black);
+}
+.portfolio-btns button:hover,
+.portfolio-btns button:focus {
+  background-color: var(--color);
+  color: var(--white);
 }
