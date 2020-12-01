@@ -1,0 +1,26 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+*/
+
+.container {
+  border: 1px solid;
+}
+
+.section-3 img {
+  width: 270px;
+  height: 260px;
+}
