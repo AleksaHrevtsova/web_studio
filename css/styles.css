@@ -51,7 +51,29 @@ address {
   --background: #2f303a;
 }
 
-/* FONT COLORS & HOVERS and FOCUSES*/
+/* HEADER*/
+
+.header div,
+.header-nav,
+.nav-list,
+.header .nav-contacts {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  margin-right: 93px;
+}
+
+.header-nav {
+  padding: 24px 0;
+}
+.nav-list-item:not(:last-child),
+.nav-contacts a:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-link,
 .nav-contacts a {
   letter-spacing: 0.02em;
@@ -61,6 +83,13 @@ address {
 .details-list h3,
 .name {
   color: var(--black);
+}
+.current {
+  color: var(--color);
+}
+/* HERO */
+.hero {
+  padding: 200px 0;
 }
 
 .hero,
@@ -77,6 +106,8 @@ address {
   line-height: 1.875;
   letter-spacing: 0.06em;
 }
+
+/* SECTION 3 */
 .details-list h3 {
   text-transform: uppercase;
   font-weight: bold;
@@ -150,30 +181,7 @@ address {
 }
 
 /* FLEXBOX */
-.header div,
-.header-nav,
-.nav-list,
-.header .nav-contacts {
-  display: flex;
-  flex-flow: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.header-logo {
-  margin-right: 93px;
-}
 
-.header-nav {
-  padding: 24px 0;
-}
-.nav-list-item:not(:last-child),
-.nav-contacts a:not(:last-child) {
-  margin-right: 50px;
-}
-
-.hero {
-  padding: 200px 0;
-}
 .hero-title,
 .section-title,
 .details-list h3,
